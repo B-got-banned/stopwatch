@@ -1,0 +1,89 @@
+body{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: aliceblue;
+  font-size: 2em;
+}
+
+#myH1{
+  color: rgba(0, 0, 0, 0.655);
+}
+
+#watchBox{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 20rem;
+  border: none;
+  border-radius: 50px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.454);
+  transition: scale 0.5s ease;
+}
+
+#watchBox:hover{
+  scale: 1.1;
+}
+
+#timeP{
+  font-family: monospace;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.429);
+}
+
+#controlBtns button{
+  padding: 5px 15px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.304);
+  font-weight: bold;
+}
+
+#startBtn{
+  background: hsl(120, 67%, 45%);
+  transition: scale 0.25s ease;
+  transition: background 0.25s ease;
+}
+
+#startBtn:hover{
+  background: hsl(120, 67%, 55%);
+}
+
+#startBtn:active{
+  background: hsl(120, 67%, 65%);
+}
+
+#stopBtn{
+  background: hsl(0, 67%, 45%);
+  transition: scale 0.25s ease;
+  transition: background 0.25s ease;
+}
+
+#stopBtn:hover{
+  background: hsl(0, 67%, 55%);
+}
+
+#stopBtn:active{
+  background: hsl(0, 67%, 65%);
+}
+
+#resetBtn{
+  background: hsl(247, 67%, 45%);
+  transition: scale 0.25s ease;
+  transition: background 0.25s ease;
+}
+
+#resetBtn:hover{
+  background: hsl(247, 67%, 55%);
+}
+
+#resetBtn:active{
+  background: hsl(247, 67%, 65%);
+}
